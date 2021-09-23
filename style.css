@@ -1,0 +1,105 @@
+html {
+    background: #1a1a1d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    user-select: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+nav .logoText {
+    color: #ffcc43;
+    font-size: 32px;
+    margin-top: 33px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav li {
+    color: #ffcc43;
+    font-size: 32px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1000px;
+    gap: 50px;
+}
+
+nav li ul a {
+    text-decoration: none;
+    color: #ffcc43;
+}
+
+nav li ul a:hover {
+    color: #e7a536;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+#aboutText {
+    color: #ffcc43;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+#listText {
+    color: #ffcc43;
+    font-size: 24px;
+}
+
+#tableA {
+    text-decoration: none;
+    color: #ffcc43;
+}
+
+#tableA:hover {
+    color: #e7a536;
+}
+
+td {
+    padding: 10px;
+    border: 2px solid #e7a536;
+    border-collapse: collapse;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#games {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+}
+
+.play {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.play h1 {
+    color: #ffcc43;
+}
+
+.play p {
+    font-style: italic;
+    color: #e7a536;
+}
+
+#temp {
+    color: #ffcc43;
+}
