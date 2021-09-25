@@ -7,7 +7,7 @@ html {
 nav {
     display: flex;
     flex-direction: row;
-    gap: 25px;
+    gap: 50vw;
 }
 
 nav .logoText {
@@ -24,8 +24,12 @@ nav li {
     list-style: none;
     display: flex;
     flex-direction: row;
-    margin-left: 1000px;
     gap: 50px;
+}
+
+#couple {
+    display: flex;
+    gap: 20px;
 }
 
 nav li ul a {
